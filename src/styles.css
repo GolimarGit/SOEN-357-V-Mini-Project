@@ -1,0 +1,83 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+}
+
+/* Navbar Styles */
+.navbar {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 10px 0;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.navbar ul li a.h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ff6347; /* Tomato color for hover */
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    margin-left: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section h3, section h4 {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
